@@ -1,0 +1,42 @@
+.thumbnailold{
+    width: 400px;
+    height: 300px;
+    object-fit: contain;
+    object-position: bottom;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: red;}
+
+.thumbnail{
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 12px;}
+
+.video-title{
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    line-height: 20px;}
+
+.author,.stats{
+    font-size: 12px;
+    color: rgb(105, 105, 105);}
+
+.author{
+    margin-bottom: 3px;}
+
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 66px 1fr;}
+
+.profile-picture{
+    width: 75%;
+    border-radius: 40px;}
+
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;}
