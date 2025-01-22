@@ -40,9 +40,28 @@
 
 .video-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 40px;}
+
+@media (max-width: 700px) {
+    .video-grid{
+        grid-template-columns: 1fr;}
+    }
+
+@media (min-width: 701px) and (max-width: 1000px) {
+    .video-grid{
+        grid-template-columns: 1fr 1fr;}
+    }
+
+@media (min-width: 1001px) and (max-width: 1499px) {
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr;}
+    }
+
+@media (min-width: 1500px) {
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;}
+    }
 
 .video-time{
     background-color: black;
