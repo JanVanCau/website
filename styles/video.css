@@ -8,10 +8,13 @@
     border-radius: 3px;
     border-color: red;}
 
+.thumbnail-row{
+    position: relative;}
+
 .thumbnail{
     width: 100%;
     border-radius: 8px;
-    margin-bottom: 12px;}
+    margin-bottom: 8px;}
 
 .video-title{
     margin-top: 0px;
@@ -29,7 +32,7 @@
 
 .video-info-grid{
     display: grid;
-    grid-template-columns: 66px 1fr;}
+    grid-template-columns: 55px 1fr;}
 
 .profile-picture{
     width: 75%;
@@ -40,3 +43,18 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 40px;}
+
+.video-time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 13px;
+    right: 3px;
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 4px;}

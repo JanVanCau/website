@@ -4,4 +4,10 @@ p{
     margin-bottom: 0px;}
 
 body{
-    margin: 0}
+    margin: 0px;
+    padding-top: 70px;
+    height: 2000px;
+    padding-left: 130px;
+    padding-right: 20px;
+    padding-top: 80px;
+    background-color: rgb(245, 245, 245);}
